@@ -1,7 +1,7 @@
-1. SQL Injection Vulnerability:
-Flaw: The login system was using raw SQL queries with unsanitized user input, which made it possible for attackers to manipulate the database.
-Impact: Hackers could bypass login, access sensitive data, or mess with the database.
-Fix: Replacing raw SQL with Django’s built-in authenticate method, which securely checks the login without risking SQL injection.
+### 1. **SQL Injection Vulnerability**
+- **Flaw:** The login system was using raw SQL queries with unsanitized user input, which made it possible for attackers to manipulate the database.
+- **Impact:** Hackers could bypass login, access sensitive data, or mess with the database.
+- **Fix:** Replacing raw SQL with Django’s built-in authenticate method, which securely checks the login without risking SQL injection.
 
 2. Cross-Site Scripting (XSS):
   Flaw: User comments were being shown without checking for harmful code, so attackers could inject malicious JavaScript.
