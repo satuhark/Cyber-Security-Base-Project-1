@@ -21,4 +21,4 @@
 ### 5. **Security Misconfiguration**
 - **Flaw:** The app was running in "debug mode" in production, which revealed sensitive information like error messages and database details.
 - **Impact:** This gave attackers clues on how to exploit the app.
-- **Fix:** Turning off debug mode by setting `DEBUG = False` and set up proper logging to track errors safely without revealing sensitive details.
+- **Fix:** Turning off debug mode by setting `DEBUG = False`  and defining a list of allowed hosts in `ALLOWED_HOSTS`.
