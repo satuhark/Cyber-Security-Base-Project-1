@@ -13,21 +13,31 @@ def login_view(request):
         username = request.POST.get('username', '')
         password = request.POST.get('password', '')
         
-        # Vulnerable raw SQL query
-        #query = f"SELECT * FROM auth_user WHERE username = '{username}' AND password = '{password}'"
-        #cursor = connection.cursor()
-        #cursor.execute(query)
-        #user = cursor.fetchone()
+        # Vulnerable raw SQL query start
+        # query = f"SELECT * FROM auth_user WHERE username = '{username}' AND password = '{password}'"
+        # print(f"Executing query: {query}")
+        # cursor = connection.cursor()
+        # cursor.execute(query)
+        # user = cursor.fetchone()
+        
+        #if user:
+            #request.session['user_id'] = user[0]
+            #return redirect('polls:index')
+        #else:
+            #error = "Invalid username or password"
+        
+        # Vulnerable raw SQL query end
+        
 
-        # Authenticate user
+        # Authenticate user start
         user = authenticate(request, username=username, password=password)
         
         if user is not None:
-            # Log the user in
             login(request, user)
             return redirect('polls:index')
         else:
             error = "Invalid username or password"
+        # Authenticate user end
     
     return render(request, 'polls/login.html', {'error': error})
 

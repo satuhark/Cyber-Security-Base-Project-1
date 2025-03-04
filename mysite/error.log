@@ -1,0 +1,735 @@
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 19, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 19, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 19, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "test": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 19, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "test": syntax error
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "test": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 19, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "test": syntax error
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 109292
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 109292
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72541
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: SELECTs to the left and right of UNION do not have the same number of result columns
+"POST /polls/login/ HTTP/1.1" 500 109402
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108685
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: 1st ORDER BY term out of range - should be between 1 and 11
+"POST /polls/login/ HTTP/1.1" 500 108674
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72206
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 145
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 28, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72206
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: unrecognized token: "" 'auth_user --'' AND password = 'test'"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: unrecognized token: "" 'auth_user --'' AND password = 'test'"
+"POST /polls/login/ HTTP/1.1" 500 110230
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: unrecognized token: "" 'auth_user --'' AND password = 'test'"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 20, in login_view
+    cursor.execute(query)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: unrecognized token: "" 'auth_user --'' AND password = 'test'"
+"POST /polls/login/ HTTP/1.1" 500 110264
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 27, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72434
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 27, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72442
+Internal Server Error: /polls/login/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 29, in login_view
+    login(request, user)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\__init__.py", line 138, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+AttributeError: 'tuple' object has no attribute '_meta'
+"POST /polls/login/ HTTP/1.1" 500 72665
