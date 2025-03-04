@@ -733,3 +733,39 @@ Traceback (most recent call last):
     request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
 AttributeError: 'tuple' object has no attribute '_meta'
 "POST /polls/login/ HTTP/1.1" 500 72665
+Internal Server Error: /polls/question/1/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 49, in detail
+    if question.user != request.user:
+AttributeError: 'Question' object has no attribute 'user'
+"GET /polls/question/1/ HTTP/1.1" 500 70466
+Internal Server Error: /polls/question/1/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 49, in detail
+    if question.user != request.user:
+AttributeError: 'Question' object has no attribute 'user'
+"GET /polls/question/1/ HTTP/1.1" 500 70466
+Internal Server Error: /polls/question/1/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 51, in detail
+    if question.user != request.user:
+AttributeError: 'Question' object has no attribute 'user'
+"GET /polls/question/1/ HTTP/1.1" 500 70237

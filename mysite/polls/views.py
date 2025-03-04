@@ -1,6 +1,6 @@
 from django.db import connection
 from django.contrib.auth.models import User
-from .models import Question
+from .models import Question, Comment
 from django.contrib.auth import authenticate, login
 from django.shortcuts import get_object_or_404, render, redirect
 from django.http import HttpResponseForbidden
@@ -28,8 +28,6 @@ def login_view(request):
         
         # Vulnerable raw SQL query end
         
-
-        # Authenticate user start
         user = authenticate(request, username=username, password=password)
         
         if user is not None:
@@ -37,21 +35,29 @@ def login_view(request):
             return redirect('polls:index')
         else:
             error = "Invalid username or password"
-        # Authenticate user end
     
     return render(request, 'polls/login.html', {'error': error})
+
 
 comments = []
 
 @login_required
 def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
+    
     if question.user != request.user:
         return HttpResponseForbidden("You do not have permission to access this resource.")
-    global comments
+    
     if request.method == "POST":
-        comment = request.POST.get("comment", "")
-        comments.append(comment)  
+        comment_text = request.POST.get("comment", "")
+        if comment_text:
+            comment = Comment.objects.create(
+                question=question,
+                user=request.user,
+                text=comment_text
+            )
+    
+    comments = Comment.objects.filter(question=question)
     return render(request, 'polls/detail.html', {'question': question, 'comments': comments})
 
 
