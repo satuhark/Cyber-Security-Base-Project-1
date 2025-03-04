@@ -4,7 +4,7 @@
 - **Fix:** Replacing raw SQL with Django’s built-in authenticate method, which securely checks the login without risking SQL injection.
 
 ### 2. **Cross-Site Scripting (XSS)**
-- **Flaw:** User comments were being shown without checking for harmful code, so attackers could inject malicious JavaScript.
+- **Flaw:** User comments were not checked for harmful code, so attackers could inject malicious JavaScript.
 - **Impact:** Malicious code could run in users' browsers, steal information, or mess with the website.
 - **Fix:** Using Django's `|escape` filter to clean user comments and prevent any harmful scripts from running.
 
