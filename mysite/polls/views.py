@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate, login
 from django.shortcuts import get_object_or_404, render, redirect
 from django.http import HttpResponseForbidden
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponse
 
 
 def login_view(request):
@@ -63,3 +64,7 @@ def detail(request, question_id):
 
 def index(request):
     return render(request, 'polls/index.html')
+
+def trigger_error(request):
+    result = 1 / 0 
+    return HttpResponse("This won't be reached.")

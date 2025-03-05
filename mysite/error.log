@@ -769,3 +769,33 @@ Traceback (most recent call last):
     if question.user != request.user:
 AttributeError: 'Question' object has no attribute 'user'
 "GET /polls/question/1/ HTTP/1.1" 500 70237
+Internal Server Error: /polls/error/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 68, in test_error
+    return 1 / 0
+ZeroDivisionError: division by zero
+"GET /polls/error/ HTTP/1.1" 500 63652
+Internal Server Error: /polls/error/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'float' object has no attribute 'get'
+"GET /polls/error/ HTTP/1.1" 500 64442
+Internal Server Error: /polls/trigger-error/
+Traceback (most recent call last):
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\satum\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\satum\OneDrive\Desktop\Metropolia\CyberSecurityBase\Project 1\mysite\polls\views.py", line 69, in trigger_error
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /polls/trigger-error/ HTTP/1.1" 500 64068
