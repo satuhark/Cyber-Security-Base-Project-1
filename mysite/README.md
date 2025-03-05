@@ -6,7 +6,7 @@
 ### 2. **Cross-Site Scripting (XSS)**
 - **Flaw:** User comments were not checked for harmful code, so attackers could inject malicious JavaScript.
 - **Impact:** Malicious code could run in users' browsers, steal information, or mess with the website.
-- **Fix:** Using Django's `|escape` filter to clean user comments and prevent any harmful scripts from running.
+- **Fix:** Using Django's `|escape` filter to clean user comments and prevent any harmful scripts from running. Replacing `<p>{{ comment.text|safe }}</p>` with `<p>{{ comment.text|escape }}</p>`
 
 ### 3. **Cross-Site Request Forgery (CSRF)**
 - **Flaw:** There was no CSRF protection.
@@ -16,9 +16,17 @@
 ### 4. **Insecure Direct Object References (IDOR)**
 - **Flaw:** The app allowed users to access certain resources by just guessing or changing the URL, without checking if they had permission.
 - **Impact:** Unauthorized users could view or change data they shouldn’t have access to.
-- **Fix:** Adding checks to ensure that users can only access data they own, using Django’s `get_object_or_404` and making sure they have permission.
+- **Fix:** Adding checks to ensure that users can only access data they own, in code: 
+` if question.user != request.user:         
+	return HttpResponseForbidden("You do not have permission to access this 	resource.") `
 
 ### 5. **Security Misconfiguration**
 - **Flaw:** The app was running in "debug mode" in production, which revealed sensitive information like error messages and database details.
+settings.py:  
+` DEBUG = True 
+ALLOWED_HOSTS = [] `
 - **Impact:** This gave attackers clues on how to exploit the app.
-- **Fix:** Turning off debug mode by setting `DEBUG = False`  and defining a list of allowed hosts in `ALLOWED_HOSTS`.
+- **Fix:** 
+settings.py:  
+` DEBUG = False 
+ALLOWED_HOSTS = ['localhost', '127.0,0,1'] `
