@@ -9,9 +9,9 @@
 - **Fix:** Using Django's `|escape` filter to clean user comments and prevent any harmful scripts from running. Replacing `<p>{{ comment.text|safe }}</p>` with `<p>{{ comment.text|escape }}</p>`
 
 ### 3. **Cross-Site Request Forgery (CSRF)**
-- **Flaw:** There was no CSRF protection.
+- **Flaw:** The CSRF token was included in the form, but the server did not validate it.
 - **Impact:** Attackers could do things like submit forms or change settings without the user knowing.
-- **Fix:** Adding Django’s CSRF protection by including `{% csrf_token %}`. This makes sure any action is coming from the user themselves and not an attacker.
+- **Fix:** CSRF protection was properly enabled by ensuring the server validates CSRF tokens for incoming POST requests.
 
 ### 4. **Insecure Direct Object References (IDOR)**
 - **Flaw:** The app allowed users to access certain resources by just guessing or changing the URL, without checking if they had permission.
