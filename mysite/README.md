@@ -11,7 +11,7 @@
 ### 3. **Cross-Site Request Forgery (CSRF)**
 - **Flaw:** The CSRF token was included in the form, but the server did not validate it.
 - **Impact:** Attackers could do things like submit forms or change settings without the user knowing.
-- **Fix:** CSRF protection was properly enabled by ensuring the server validates CSRF tokens for incoming POST requests.
+- **Fix:** CSRF protection was enforced by ensuring that the CSRF token is both present in the form and validated by the server. No exemption is used, and Django’s middleware is active.
 
 ### 4. **Insecure Direct Object References (IDOR)**
 - **Flaw:** The app allowed users to access certain resources by just guessing or changing the URL, without checking if they had permission.
